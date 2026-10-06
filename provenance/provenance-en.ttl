@@ -1,0 +1,15 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http://purl.org/ffonto#V1.2> a prov:Entity;
+	 dc:title "Forest Fire Ontology (FFONTO)";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo <https://github.com/kosala0514>;
+	 dc:creator <https://github.com/kosala0514>;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "2026-01-27T00:00:00+00:00";
+.
+:agent0 a prov:Agent; foaf:name "Ms. Charuni Kosala Jayaweera".
+:agent1 a prov:Agent; foaf:name "Prof. Dulani Meedeniya".
